@@ -1,6 +1,3 @@
-import logo from '../../logo.svg';
-import CardA from '../card-class/CardA';
-import CardB from '../card-function/CardB';
 import './App.css';
 
 // some random data
@@ -19,13 +16,8 @@ const users = [
   }
 ]
 
-function App() {
-  return (
-    <div>
-      {/* <CardA/>
-      <CardB/> */}
-    </div>
-  );
+const App = () => {
+  return <h2>Hello fxn component.</h2>
 }
 
-export default App;
+export default App
